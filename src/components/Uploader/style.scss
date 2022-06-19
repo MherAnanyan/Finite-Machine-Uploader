@@ -1,0 +1,51 @@
+.upload-area-wrapper {
+    margin: 100px;
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(131, 179, 179);
+        height: 300px;
+    }
+    .upload-btn-wrapper {
+        position: relative;
+        display: inline-block;
+    }
+
+    .btn {
+        border: 2px solid gray;
+        color: gray;
+        background-color: white;
+        padding: 8px 20px;
+        border-radius: 8px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .reset-btn {
+        border: 1px solid gray;
+        color: gray;
+        background-color: white;
+        padding: 4px 10px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .reset-btn:active {
+        background-color: cadetblue;
+    }
+    .disabled:active {
+        background-color: white;
+        cursor: not-allowed;
+    }
+    .state {
+        display: flex;
+        margin: 20px;
+        p {
+            margin: 5px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: rgb(233, 233, 220);
+        }
+    }
+}

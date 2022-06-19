@@ -1,0 +1,32 @@
+.progressBar-area {
+    height: 30px;
+    width: 300px;
+    background-color: #e0e0de;
+    border-radius: 50px;
+    // margin: 20px 5px 0;
+    border: 1px solid black;
+    position: relative;
+    .progressBar-filler {
+        height: 100%;
+        background-color: rgb(71, 228, 76);
+        border-radius: inherit;
+        text-align: right;
+        .progressBar-label {
+            padding: 5px;
+            color: #fff;
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .delete-btn {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%);
+        border: none;
+        background-color: transparent;
+    }
+}
